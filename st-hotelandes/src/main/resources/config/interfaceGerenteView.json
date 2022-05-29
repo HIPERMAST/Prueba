@@ -1,0 +1,58 @@
+{
+	"title": "Aplicación Vista del Gerente",
+	"frameH": 600,
+	"frameW": 800,
+	"bannerPath": "./src/main/resources/config/hotel.png",
+	"menuBar":
+	[
+		{ "menuTitle": "Mostrar",
+		  "options":
+			[
+				{
+					"label": "Mostrar el dinero recolectado por un servicio en cada habitación por parte de un cliente",
+					"event": "mostrarDineroServicio"
+				},
+				{
+					"label": "Mostrar los 20 servicios más populares",
+					"event": "serviciosMasPopulares"
+				},
+				{
+					"label": "Mostrar el índice de ocupación de las habitaciones",
+					"event": "indiceDeOcupacionHabitaciones"
+				},
+				{
+					"label": "Mostrar los servicios que cumplen con una característica",
+					"event": "serviciosConCaracteristica"
+				},
+				{
+					"label": "Mostrar consumo de un cliente en un rango de fechas",
+					"event": "mostrarConsumoCliente"
+				}
+			]
+		},
+		{ "menuTitle": "Analizar",
+			"options":
+			  [
+				  {
+					  "label": "Analizar la operación de hotelandes",
+					  "event": "analizarOperacionHotelandes"
+				  }
+			  ]
+		},
+		{ "menuTitle": "Encontrar",
+		"options":
+			[
+				{
+					"label": "Encontrar los buenos clientes",
+					"event": "encontrarBuenosClientes"
+				},
+				{
+					"label": "Encontrar los servicios que no tienen mucha demanda",
+					"event": "encontrarServiciosSinDemanda"
+				}
+			]
+		}		
+		
+	]
+}
+	

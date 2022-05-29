@@ -1,0 +1,20 @@
+{
+	"title": "Aplicación Vista del Empleado",
+	"frameH": 600,
+	"frameW": 800,
+	"bannerPath": "./src/main/resources/config/hotel.png",
+	"menuBar":
+	[
+		{ "menuTitle": "Registrar",
+		  "options":
+			[
+				{
+					"label": "Registrar el consumo de un servicio del hotel por parte de un cliente",
+					"event": "registrarConsumoDeServicio"
+				}
+			]
+		}		
+		
+	]
+}
+	

@@ -1,0 +1,38 @@
+{
+	"title": "Aplicacion Vista del Organizador de Eventos",
+	"frameH": 600,
+	"frameW": 800,
+	"bannerPath": "./src/main/resources/config/hotel.png",
+	"menuBar":
+	[
+		{ "menuTitle": "Reservar",
+		  "options":
+			[
+				{
+					"label": "Reservar alojamiento y servicios para una convención",
+					"event": "reservarParaConvencion"
+				}
+			]
+		},
+		{ "menuTitle": "Cancelar",
+			"options":
+			  [
+				  {
+					  "label": "Cancelar reservas asociadas a una convención",
+					  "event": "cancelarReservasConvencion"
+				  }
+			  ]
+		},
+		{ "menuTitle": "Registrar",
+		"options":
+			[
+				{
+					"label": "Registrar el fin de una convención",
+					"event": "registrarFinConvenvion"
+				}
+			]
+		}		
+		
+	]
+}
+	

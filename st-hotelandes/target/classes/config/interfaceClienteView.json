@@ -1,0 +1,24 @@
+{
+	"title": "Aplicacion Vista del Cliente",
+	"frameH": 600,
+	"frameW": 800,
+	"bannerPath": "./src/main/resources/config/hotel.png",
+	"menuBar":
+	[
+		{ "menuTitle": "Reservar",
+		  "options":
+			[
+				{
+					"label": "Reservar una habitación",
+					"event": "reservarHabitacion"
+				},
+				{
+					"label": "Reservar un servicio",
+					"event": "reservarServicio"
+				}
+			]
+		}		
+		
+	]
+}
+	

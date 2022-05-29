@@ -1,0 +1,99 @@
+{
+	"title": "Aplicación Vista del Administrador de datos",
+	"frameH": 600,
+	"frameW": 800,
+	"bannerPath": "./src/main/resources/config/hotel.png",
+	"menuBar":
+	[
+		{ "menuTitle": "Registrar",
+		  "options":
+			[
+				{
+					"label": "Registrar un rol de usuario",
+					"event": "registrarRolUsuario"
+				},
+				{
+					"label": "Registrar un usuario",
+					"event": "registrarUsuario"
+				},
+				{
+					"label": "Registrar un tipo de habitación",
+					"event": "registrarTipoHabitacion"
+				},
+				{
+					"label": "Registrar una habitación",
+					"event": "registrarHabitacion"
+				},
+				{
+					"label": "Registrar un servicio del hotel",
+					"event": "registrarServicio"
+				},
+				{
+					"label": "Registrar un plan de consumo",
+					"event": "registrarPlanConsumo"
+				},
+				{
+					"label": "Registrar la entrada a mantenimiento de alojamientos o servicios del hotel",
+					"event": "registrarEntradaMantenimiento"
+				},
+				{
+					"label": "Registrar el fin del mantenimiento de alojamientos o servicios del hotel",
+					"event": "registrarFinMantenimiento"
+				}
+			]
+		},
+		{ "menuTitle": "Mantenimiento",
+		  "options":
+			[
+				{
+					"label": "Mostrar log Parranderos",
+					"event": "mostrarLogParranderos"
+				},
+				{
+					"label": "Mostrar log datanucleus",
+					"event": "mostrarLogDatanuecleus"
+				},
+				{
+					"label": "Limpiar log de parranderos",
+					"event": "limpiarLogParranderos"
+				},
+				{
+					"label": "Limpiar log de datanucleus",
+					"event": "limpiarLogDatanucleus"
+				},
+				{
+					"label": "Limpiar Base de Datos",
+					"event": "limpiarBD"
+				}
+			]
+		},		
+		{ "menuTitle": "Documentación",
+		  "options":
+			[
+				{
+					"label": "Modelo conceptual",
+					"event": "mostrarModeloConceptual"
+				},
+				{
+					"label": "Esquema de la BD",
+					"event": "mostrarEsquemaBD"
+				},
+				{
+					"label": "Script creación de la BD",
+					"event": "mostrarScriptBD"
+				}
+			]
+		},		
+		{ "menuTitle": "Acerca de ...",
+		  "options":
+			[
+				{
+					"label": "Acerca de ...",
+					"event": "acercaDe"
+				}
+			]
+		}		
+		
+	]
+}
+	

@@ -1,0 +1,24 @@
+{
+	"title": "Aplicación Vista del Recepcionista",
+	"frameH": 600,
+	"frameW": 800,
+	"bannerPath": "./src/main/resources/config/hotel.png",
+	"menuBar":
+	[
+		{ "menuTitle": "Registrar",
+		  "options":
+			[
+				{
+					"label": "Registrar la llegada de un cliente",
+					"event": "registrarLlegadaCliente"
+				},
+				{
+					"label": "Registrar la salida de un cliente",
+					"event": "registrarSalidaCliente"
+				}
+			]
+		}		
+		
+	]
+}
+	

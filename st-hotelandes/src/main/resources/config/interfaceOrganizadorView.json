@@ -1,0 +1,20 @@
+{
+	"title": "Aplicación Vista del Administrador de datos",
+	"frameH": 600,
+	"frameW": 800,
+	"bannerPath": "./src/main/resources/config/hotel.png",
+	"menuBar":
+	[
+		{ "menuTitle": "No se",
+		  "options":
+			[
+				{
+					"label": "No se",
+					"event": "falta implementar"
+				}
+			]
+		}		
+		
+	]
+}
+	
